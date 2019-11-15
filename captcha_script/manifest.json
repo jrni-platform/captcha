@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "name": "glennTest",
+  "description": "Recaptcha Validtaion script",
+  "platform": "nodejs8.10",
+  "created_at": "2018-07-19",
+  "updated_at": "2018-07-19",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"ClientCreate",
+      "description":"When a client is created",
+      "type":"Surgeon",
+      "actions": ["before_public_create_client"],
+      "log_type": "None",
+      "enabled": true,
+      "handler": "before_public_create_client"
+    }
+  ]
+}

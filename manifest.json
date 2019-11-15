@@ -1,25 +1,17 @@
 {
   "bbAppManifestVersion":"1.0",
-  "name": "Glenn Test App",
-  "unique_name": "demo",
+  "name": "Recatcha App",
+  "unique_name": "captcha",
   "version": "0.1",
-  "description": "Glenn's test app",
+  "description": "Add in Recaptcha support for the customer yourney",
   "author": "Glenn Shoosmith",
   "licence": "GPL",
   "tags": "",
-  "config": true,
-  "panels": [
-    "test_panel"
+  "config": false,
+  "script_packs": [
+    "captcha_script"
   ],
-  "objects": [
-    "task",
-    "task_list",
-    "bb.booking"
-  ],
-  "scripts": [
-    "test_script"
-  ],
-  "liquid": [
-    "test_liquid"
+  "jext": [
+    "jext"
   ]
 }
